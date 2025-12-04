@@ -39,5 +39,21 @@ To run the prototype, install the required dependencies:
     pip install -r requirements.txt
 
 Dependencies include:
-  NumPy — for contiguous arrays and vectorized computation
-  Matplotlib — for generating the performance chart
+ - NumPy — for contiguous arrays and vectorized computation
+  
+ - Matplotlib — for generating the performance chart
+
+## Running the Prototype
+   python Data_Locality_Optimization.py
+
+The script will:
+
+- Create a large dataset (N = 10,000,000)
+
+- Run the naive Python list version
+
+- Run the NumPy optimized version
+
+- Print timing results
+
+- Generate a performance bar chart
