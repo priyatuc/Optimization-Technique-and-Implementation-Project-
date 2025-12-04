@@ -7,7 +7,7 @@ This prototype compares two data-structure approaches:
   - A naïve Python list (non-contiguous memory, poor locality)
   - A NumPy contiguous array (optimized for spatial locality and vectorization)
 
-The goal is to show how rethinking data structure layout—not the algorithm—can dramatically improve performance.
+The goal is to show how rethinking data structure layout, not the algorithm, can dramatically improve performance.
 
 
 ## Features
@@ -44,7 +44,8 @@ Dependencies include:
  - Matplotlib — for generating the performance chart
 
 ## Running the Prototype
-   python Data_Locality_Optimization.py
+
+     python Data_Locality_Optimization.py
 
 The script will:
 
