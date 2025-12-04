@@ -4,7 +4,30 @@ This repository contains a Python prototype developed to demonstrate the impact 
 
 This prototype compares two data-structure approaches:
 
-  A naïve Python list (non-contiguous memory, poor locality)
-  A NumPy contiguous array (optimized for spatial locality and vectorization)
+  - A naïve Python list (non-contiguous memory, poor locality)
+  - A NumPy contiguous array (optimized for spatial locality and vectorization)
 
 The goal is to show how rethinking data structure layout—not the algorithm—can dramatically improve performance.
+
+
+# Features
+
+- Implements a simple numerical kernel: sum of squares
+
+- Benchmarks:
+
+  Python list loop
+  
+  NumPy vectorized array operation
+
+- Generates a bar chart comparing execution times
+
+- Demonstrates the performance impact of:
+
+  contiguous memory
+  
+  vectorized operations
+  
+  cache-friendly access patterns
+
+- Clear, reproducible results suitable for academic reporting
