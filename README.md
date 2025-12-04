@@ -36,7 +36,8 @@ The goal is to show how rethinking data structure layout, not the algorithm, can
 
 To run the prototype, install the required dependencies:
 
-    pip install -r requirements.txt
+    pip install numpy
+    pip install matplotlib
 
 Dependencies include:
  - NumPy — for contiguous arrays and vectorized computation
